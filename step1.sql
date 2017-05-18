@@ -1,4 +1,4 @@
-/*创建 university 数据库*/
+/*创建 university 数据库 */
 create database university
 
 /*使用university 数据库*/
