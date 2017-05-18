@@ -8,7 +8,7 @@ def load(file, list):
         for value in tmp:#检查属性值
             if value.isdigit():#判断字符串是否为纯数字，如果是，将相应的值修改为纯数字
                 value=int(value)
-        list.append(tuple(tmp))#最后将修改为不可变的元组存入列表供executemany（）使用
+        list.append(tuple(tmp))#最后将修改为不可变的元组存入列表以供executemany（）使用
     file.close()
 
 d=open('/home/lbw/Downloads/MySQL上课文件/作业/university/department.txt','r')
