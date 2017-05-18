@@ -1,4 +1,4 @@
-/*把peoples表中school不是GDUFS的人全部找出来？（包括school为NULL的人）写出MySQL语句。*/
+/*把peoples表中school不是GDUFS的人全部找出来？（包括school为NULL的人）写出MySQL语句。 */
 select name from peoples where name no in (select name from peoples where school='GDUFS')as T1 and school is null
 
 /*3-2.查找计算机系每次考试学生的平均成绩(最终显示学生姓名, 考试名称, 平均分)。*/
